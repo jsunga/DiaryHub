@@ -1,0 +1,27 @@
+version: '3.7'
+services:
+  redis:
+    image : redis:5.0.4
+    ports:
+      - "6379:6379"
+    deploy:
+      placement:
+        constraints: [node.role == manager]
+    networks:
+      - webnet
+  mongodb:
+    image: mongo
+    ports:
+      - "27017:27017"
+    networks:
+      - webnet
+  finalgg:
+    image: jsunga/finalgg
+    ports:
+      - "4000:4000"
+    deploy:
+      replicas: 5
+networks:
+  webnet:
+    
+    
