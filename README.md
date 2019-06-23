@@ -1,4 +1,5 @@
 # DiaryHub
+- Fitness & Food diary/log
 
 ## Members
 1. Jawyn Sunga
