@@ -1,6 +1,12 @@
 # DiaryHub
 - Fitness & Food diary/log
 
+## Development
+- MongoDB
+- ExpressJS
+- ReactJS
+- NodeJS
+
 ## Members
 1. Jawyn Sunga
 2. Junjie Lu
